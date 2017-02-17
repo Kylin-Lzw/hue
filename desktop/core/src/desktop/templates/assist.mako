@@ -1573,10 +1573,11 @@ from notebook.conf import ENABLE_QUERY_BUILDER
                 apiHelper: self.apiHelper
               }),
               apiHelper: self.apiHelper,
-              name: '${ _("GIT") }',
+              name: '${ _("Git") }',
               type: 'git',
               icon: 'fa-github',
               minHeight: 50,
+              showNavSearch: false,
               rightAlignIcon: true
             }));
           }
